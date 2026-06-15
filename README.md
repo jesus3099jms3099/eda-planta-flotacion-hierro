@@ -10,7 +10,7 @@ Análisis exploratorio de datos (EDA) sobre datos operativos reales de una plant
 ## Resumen ejecutivo
 
 Diagnóstico de un dataset industrial de 737k registros que reveló dos problemas no documentados: la resolución real es horaria (no de 20s) y ~28% de las horas contienen datos sintéticos (interpolados o congelados). Sobre 4097 observaciones
-horarias limpias, el % de sílice del concentrado (CV 48%) concentra el riesgo de calidad y se asocia al flujo de amina y a los niveles de las columnas 04–05.La calidad no es estacionaria: abril–mayo concentran la mayor impureza.
+horarias limpias, el % de sílice del concentrado (CV 48%) concentra el riesgo de calidad y se asocia al flujo de amina y a los niveles de las columnas 04–05. La calidad no es estacionaria: abril–mayo concentran la mayor impureza.
 
 ## Pregunta del análisis
 
@@ -24,7 +24,7 @@ horarias limpias, el % de sílice del concentrado (CV 48%) concentra el riesgo d
 - **Las variables operativas más asociadas a la sílice** son el flujo de amina (ρ = 0.22) y los niveles de las columnas de flotación 04 y 05 (ρ ≈ -0.20). La calidad además **no es estacionaria**: abril–mayo concentra los periodos de mayor impureza.
 
 <p align="center">
-  <img src="assets/correlación_spearman.png" width="650">
+  <img src="assets/correlacion_spearman.png" width="650">
 </p>
 
 <p align="center"><em>Asociación de cada variable operativa con el % de sílice. El flujo de amina (ρ = 0.22) y los niveles de las columnas 04–05 (ρ ≈ -0.20) son las operativas más relacionadas con la impureza.</em></p>
